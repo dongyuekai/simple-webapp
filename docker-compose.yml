@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  fuckthisshitL:
+     image: "dyk/simple2"
+     ports:
+       - "9702:7777"
+     environment:
+       PORT: 7777
